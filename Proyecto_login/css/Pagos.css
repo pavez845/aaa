@@ -1,0 +1,142 @@
+body {
+    background-color: #E3E7E8;
+    font-family: system-ui;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.panel {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.panel-heading {
+    background-color: #453E3B;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.nav-pills {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-pills li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-pills li a {
+    color: #fff;
+    background-color: #868a8f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-pills li a:hover,
+.nav-pills li.active a {
+    background-color: #c4bc92;
+}
+
+h1 {
+    color: #1C1F25;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 65%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    float: left;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.table td input[type="number"] {
+    width: 70px;
+    text-align: center;
+}
+
+.shipAddr {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+
+.footBtn {
+    width: 95%;
+    float: left;
+    margin-top: 20px;
+}
+
+.orderBtn {
+    float: right;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #4cae4c;
+}
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+tfoot .btn-block {
+    width: 100%;
+}
